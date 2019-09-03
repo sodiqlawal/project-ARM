@@ -222,9 +222,6 @@
     color: brown;
 }
 
-#small2{
-   
-}
 #text2{
     margin-top: 1rem;
 }
@@ -234,9 +231,6 @@
     margin-top: 3rem;
 }
 
-#small2{
-   
-}
 #text3{
     margin-top: 1rem;
 }
@@ -319,7 +313,7 @@
     #img-fluid{
         width: 100%;
         height: 180px;
-        margin-top: 400px;
+        margin-top: 60px;
     }
     #cap4{
         margin-bottom: 70px;
@@ -352,18 +346,27 @@
         flex-direction: column;
         position: fixed;
     }
+    .text{
+        color: gray;
+        font-size: 1.0rem;
+    }
+    
+    .head{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: brown;
+    }
+    section#footer {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background: darkblue;
+        color: white;
+    }
 }
         
-@media screen and (min-width:557px){
-   #footer{
-       width: 100vw;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-   }
 
-}
-  
 #left{
     width: 50%;
 }
